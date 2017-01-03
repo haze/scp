@@ -2,4 +2,17 @@ scp
 ---
 if you want images, make sure to use iterm2 with the utilities installed to get imgcat.
 
-to use, 
+docs:
+
+Usage:
+  scp 2019
+	- Read scp entry 2019.
+  scp (-h | --help | --version | --nocache | --no-pic) <num>
+	- Reads a random SCP entry.
+
+Options:
+	-h --help       Show this screen.
+	--version       Show the current version.
+	-ic:            Set imagecat path.
+	--nocache       Don't cache the SCP entry.
+	--no-pic        Don't show pictures with imgcat if avaliable.
